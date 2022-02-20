@@ -19,7 +19,12 @@ connectDB();
 // setup CORS logic
 // app.options("*", corsMw);
 // app.use(corsMw);
-
+app.get("/test", (req, res)=> {
+    res.send({
+        status: 200,
+        message: "Api is working"
+    })
+})
 app.use(session);
 app.use(router);
 
