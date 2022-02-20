@@ -19,7 +19,7 @@ connectDB();
 // setup CORS logic
 // app.options("*", corsMw);
 // app.use(corsMw);
-router.get("/api/test", require("./controller/apitest"))
+
 app.use(session);
 app.use(router);
 
