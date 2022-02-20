@@ -3,9 +3,9 @@ const redis = require('redis');
 const client = redis.createClient({
     // port: 6379,
     // host: 'localhost'
-    host: 'gusc1-bursting-wallaby-31541.upstash.io',
-    port: '31541',
-    password: '853aaa5b1c9446c29ac6428710706604'
+    host : 'global-balanced-crawdad-31957.upstash.io',
+    port : '31957',
+    password: 'b6f27c5f763b42ad82e8039cdc051399'
 });
 
 client.on("error", function (err) {
